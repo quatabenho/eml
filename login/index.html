@@ -104,7 +104,24 @@
   
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.querySelector('form');
+  
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+  
+        const username = document.getElementById('yourUsername').value;
+  
+        if (username === 'customer') {
+          window.location.href = '/customer';
+        } else if (username === 'admin') {
+          window.location.href = '/admin';
+        }
+      });
+    });
+  </script>
+  
   <!-- Vendor JS Files -->
   <script src="/admin/assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="/admin/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
