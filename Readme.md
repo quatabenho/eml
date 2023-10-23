@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/quatabenho/eml">
+  <a href="https://cadilac.click">
   </a>
 
   <h3 align="center">Eat My Lunch demonstration website</h3>
@@ -19,9 +19,9 @@
   <p align="center">
     <br />
     <br />  
-    <a href="https://github.com/quatabenho/digital-signature/issues">Report Bug</a>
+    <a href="https://github.com/quatabenho/eml/issues">Report Bug</a>
     ·
-    <a href="https://github.com/quatabenho/digital-signature/issues">Request Feature</a>
+    <a href="https://github.com/quatabenho/eml/issues">Request Feature</a>
   </p>
 </div>
 
