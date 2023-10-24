@@ -115,8 +115,8 @@
         const password = document.getElementById('yourPassword').value;
 
   
-        if (username === 'customer') {
-          window.location.href = '/customer';
+        if (username === 'user' && password === '1') {
+          window.location.href = '/';
         } else if (username === 'admin' && password === '1') {
           window.location.href = '/admin';
         }
