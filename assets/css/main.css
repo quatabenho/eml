@@ -312,6 +312,28 @@ section {
   background-image: linear-gradient(62deg, #cc96ff 0%, #4ba4fd 100%);
 }
 
+/* button bonus */
+.book-a-table,
+.book-a-table:focus {
+  font-size: 14px;
+  color: #fff;
+  /* background: var(--color-primary); */
+  padding: 8px 20px;
+  margin-left: 0px;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.book-a-table:hover,
+.-book-a-table:focus:hover {
+  color: #fff;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #cc96ff 0%, #4ba4fd 100%);
+}
+
 section {
   scroll-margin-top: 90px;
 }
@@ -1709,4 +1731,70 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #c1d6fc;
+  opacity: 1;
+  border: 1px solid #9473f0;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #88b7f5;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0 0 10px 0 #7293ff;
+  border-radius: 20px;
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4c55a3;
+}
+
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 17px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
