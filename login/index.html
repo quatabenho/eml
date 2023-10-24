@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EML | Login</title>
+  <title>EML - Login</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/favicon.png" rel="icon">
+  <link href="/assets/img/favicon.png" rel="icon">
   <link href="/admin/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -55,7 +55,7 @@
                 <div class="card-body">
 
                   <div class="pt-4 pb-2">
-                    <h5 class="card-title text-center pb-0 fs-4"><a href="/admin" style="text-decoration: none;">Login</a></h5><br>
+                    <h5 class="card-title text-center pb-0 fs-4">Login</h5><br>
                   </div>
 
                   <form class="row g-3 needs-validation" novalidate>
@@ -112,10 +112,12 @@
         event.preventDefault();
   
         const username = document.getElementById('yourUsername').value;
+        const password = document.getElementById('yourPassword').value;
+
   
         if (username === 'customer') {
           window.location.href = '/customer';
-        } else if (username === 'admin') {
+        } else if (username === 'admin' && password === '1') {
           window.location.href = '/admin';
         }
       });
