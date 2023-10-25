@@ -1243,3 +1243,24 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+.book-a-table,
+.book-a-table:focus {
+  font-size: 14px;
+  color: #fff;
+  /* background: var(--color-primary); */
+  padding: 8px 20px;
+  margin-left: 0px;
+  /* border-radius: 50px; */
+  transition: 0.3s;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.book-a-table:hover,
+.-book-a-table:focus:hover {
+  color: #fff;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #cc96ff 0%, #4ba4fd 100%);
+}
