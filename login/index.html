@@ -35,7 +35,7 @@
 <body>
 
   <main>
-    
+
     <div class="container">
 
       <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
@@ -59,7 +59,6 @@
                   </div>
 
                   <form class="row g-3 needs-validation" novalidate>
-
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username</label>
                       <div class="input-group has-validation">
@@ -88,10 +87,8 @@
                       <p class="small mb-0">Don't have account? <a href="/register">Create an account</a></p>
                     </div>
                   </form>
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -101,20 +98,20 @@
     </div>
   </main><!-- End #main -->
 
-  
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const form = document.querySelector('form');
-  
+
       form.addEventListener('submit', function(event) {
         event.preventDefault();
-  
+
         const username = document.getElementById('yourUsername').value;
         const password = document.getElementById('yourPassword').value;
 
-  
+
         if (username === 'user' && password === '1') {
           window.location.href = '/';
         } else if (username === 'admin' && password === '1') {
@@ -123,7 +120,7 @@
       });
     });
   </script>
-  
+
   <!-- Vendor JS Files -->
   <script src="/admin/assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="/admin/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
