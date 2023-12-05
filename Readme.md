@@ -11,14 +11,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://eml.truongphucnguyen.id.vn">
-  </a>
+
 
   <h3 align="center">Eat My Lunch demonstration website</h3>
 
+
   <p align="center">
+    A simple demo for a business that provide lunch for kids
     <br />
-    <br />  
+    <br />
+    <br />
+    <a href="https://eml.truongphucnguyen.id.vn">View Demo</a>
+    ·
     <a href="https://github.com/quatabenho/eml/issues">Report Bug</a>
     ·
     <a href="https://github.com/quatabenho/eml/issues">Request Feature</a>
