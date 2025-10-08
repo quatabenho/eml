@@ -21,7 +21,7 @@
     <br />
     <br />
     <br />
-    <a href="https://eml.truongphucnguyen.id.vn">View Demo</a>
+    <a href="#">View Demo</a>
     ·
     <a href="https://github.com/quatabenho/eml/issues">Report Bug</a>
     ·
